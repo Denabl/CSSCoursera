@@ -1,0 +1,139 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  background-color: #c7e4f0;
+}
+header {
+  background-color: #cbf7c5;
+  padding-top: 0px;
+  padding-bottom: 5px;
+}
+nav{
+  background-color: #c0c0c0;
+  display: inline-block;
+  width: 100%; 
+  margin: 0 auto;
+  padding: 0;
+  border: 2px black;
+  border-style: solid;
+  
+
+}
+nav a{
+  text-decoration: none;
+  text-align: center;
+}
+main{
+  font-size: 20px;
+  width: 100%;
+}
+
+body>a:focus { 
+  position: absolute;
+  left: 0px;
+
+}
+body>a {
+  position: absolute;
+ left: -1000px;}
+
+footer{
+  background-color: #c0c0c0;
+}
+li{
+  /* background-color: yellowgreen;*/
+}
+
+ul{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none; 
+  width: 100%
+
+}
+h1{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #c14b10;
+}
+p{
+  line-height: 120%;
+}
+
+.current{
+  text-decoration:underline;
+  background-color: lightgoldenrodyellow;
+}
+
+
+figure.home{
+  width: 50%;
+  margin: 0 auto;
+  padding: 25px;
+  border: 8px black;
+  border-style: solid;
+  border-radius: 8px;
+}
+
+figure.home img{
+  width: 100%;
+  filter: grayscale(100%);
+  transition-property: filter;
+  transition-duration: .3s;
+  transition-delay: .5s;
+  transition-timing: ease-in-out;
+  
+
+}
+
+figure.home img:hover{
+
+  filter: grayscale(0%);
+}
+
+figure.home figcaption{
+  width: 100%;
+}
+
+
+.gridfortuna{
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  column-gap: 40px;
+
+  }
+
+.gridfortuna img:nth-child(3n){
+  border-style: solid;
+  
+}
+
+.gridfortuna img{
+  width:100%;
+  padding: 10px;
+  border: 4px green;
+  border-style: dotted;
+  border-radius: 5px;
+}
+
+.gridmonte{
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  justify-content: space-around;
+  align-items: center;
+  row-gap: 20px;
+  column-gap: 10px;
+
+}
+
+.gridmonte img{
+  width: 100%;
+  padding: 10px;
+  border: 4px darkblue;
+  border-style: dashed;
+  border-radius: 10px;
+}
