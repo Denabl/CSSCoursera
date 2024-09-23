@@ -81,7 +81,7 @@ figure.home img{
   transition-property: filter;
   transition-duration: .3s;
   transition-delay: .5s;
-  transition: ease-in-out;
+  transition-timing-function: ease-in-out;
   
 
 }
