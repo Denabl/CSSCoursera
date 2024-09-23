@@ -29,20 +29,20 @@ main{
 }
 
 body>a:focus { 
-  position: absolute;
+  position: relative;
   left: 0px;
+  background-color: white;
+  margin-bottom: 20px;
 
 }
 body>a {
-  position: absolute;
+  position: relative;
  left: -1000px;}
 
 footer{
   background-color: #c0c0c0;
 }
-li{
-  /* background-color: yellowgreen;*/
-}
+
 
 ul{
   display: inline-flex;
@@ -62,10 +62,9 @@ p{
 }
 
 .current{
-  text-decoration:underline;
+  font-weight: bolder;
   background-color: lightgoldenrodyellow;
 }
-
 
 figure.home{
   width: 50%;
@@ -82,7 +81,7 @@ figure.home img{
   transition-property: filter;
   transition-duration: .3s;
   transition-delay: .5s;
-  transition-timing: ease-in-out;
+  transition: ease-in-out;
   
 
 }
